@@ -5,41 +5,42 @@ DHT20 配有一个全新设计的 ASIC专用芯片、一个经过改进的MEMS�
 新一代温湿度传感器，经过改进使其在恶劣环境下的性能更稳定。每一个传感器都经过严格的 <br>
 校准和测试。由于对传感器做了改良和微型化改进，因此它的性价比更高。<br>
 
-![正反面svg效果图](https://github.com/cdjq/DFRobot_LIS2DW12/raw/master/resources/images/SEN0245svg4.png)
+<img src="https://dfimg.dfrobot.com/nobody/wiki/73694035631036647cd8872b1d083f6c.png" width="450" hegiht="" align=right/>
 
-## 产品链接（链接到英文商城）
-    SKU：产品名称
-## Table of Contents
+## [产品链接](https://www.dfrobot.com.cn/goods-3282.html)
+    SKU：SEN0497
+## 目录
 
-* [Summary](#summary)
-* [Installation](#installation)
-* [Methods](#methods)
-* [Compatibility](#compatibility)
-* [History](#history)
-* [Credits](#credits)
+* [概述](#概述)
+* [库安装](#库安装)
+* [方法](#方法)
+* [兼容性](#兼容性)
+* [历史](#历史)
+* [创作者](#创作者)
 
-## Summary
+## 概述
 
 
-Provide an Arduino library to get Humidity and Temperature by reading data from dht20.
+提供一个Arduino库，通过从dht20读取数据来获取湿度和温度。
 
-## Installation
+## 库安装
 
-To use this library, first download the library file, paste it into the \Arduino\libraries directory, then open the examples folder and run the demo in the folder.
+使用此库前，请首先下载库文件，将其粘贴到\Arduino\libraries目录中，然后打开examples文件夹并在该文件夹中运行演示。
 
-## Methods
+## 方法
+
 ```C++
 
   /*!
-   * @brief Construct the function
-   * @param pWire IC bus pointer object and construction device, can both pass or not pass parameters, Wire in default.
-   * @param address Chip IIC address, 0x38 in default.
+   * @brief 构造函数
+   * @param IIC对象的指针，可以传参或不传默认为Wire
+   * @param 产品的IIC地址，默认为0x38
    */
   DFRobot_DHT20(TwoWire *pWire = &Wire, uint8_t address = 0x38);
 
   /**
-   * @brief init function
-   * @return Return 0 if initialization succeeds, otherwise return non-zero and error code.
+   * @brief 初始化函数
+   * @return 初始化成功返回0，否则返回非零的错误码
    */
   int begin(void);
     
@@ -56,25 +57,23 @@ To use this library, first download the library file, paste it into the \Arduino
   float getHumidity();
 ```
 
-## Compatibility
+## 兼容性
 
-MCU                | Work Well    | Work Wrong   | Untested    | Remarks
+主板                | 通过    | 未通过 | 未测试 | 备注 
 ------------------ | :----------: | :----------: | :---------: | -----
-Arduino Uno        |      √       |              |             | 
-Mega2560        |      √       |              |             | 
-Leonardo        |      √       |              |             | 
-ESP32        |      √       |              |             | 
-ESP8266        |      √       |              |             | 
-M0        |      √       |              |             | 
+Arduino Uno        |      √       |              |             |
+Mega2560        |      √       |              |             |
+Leonardo        |      √       |              |             |
+ESP32        |      √       |              |             |
+ESP8266        |      √       |              |             |
+M0        |      √       |              |             |
 
+## 历史
 
-## History
+- 日期 2021-6-25
+- 版本 V1.0.0
 
-- Date 2021-6-25
-- Version V0.1
-
-
-## Credits
+## 创作者
 
 Written by fengli(li.feng@dfrobot.com), 2021.7.31 (Welcome to our [website](https://www.dfrobot.com/))
 
