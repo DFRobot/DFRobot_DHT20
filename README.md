@@ -5,7 +5,7 @@ The DHT20 temperature & humidity sensor is the newly upgraded version of the DHT
 <img src="https://dfimg.dfrobot.com/nobody/wiki/73694035631036647cd8872b1d083f6c.png" width="450" hegiht="" align=right/>
 
 
-## [Product Link](https://www.dfrobot.com/product-2391.html)
+## Product Link([https://www.dfrobot.com/product-2391.html](https://www.dfrobot.com/product-2391.html))
     SKU：SEN0497
 ## Table of Contents
 

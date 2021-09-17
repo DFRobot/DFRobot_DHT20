@@ -7,7 +7,7 @@ DHT20 配有一个全新设计的 ASIC专用芯片、一个经过改进的MEMS�
 
 <img src="https://dfimg.dfrobot.com/nobody/wiki/73694035631036647cd8872b1d083f6c.png" width="450" hegiht="" align=right/>
 
-## [产品链接](https://www.dfrobot.com.cn/goods-3282.html)
+## 产品链接([https://www.dfrobot.com.cn/goods-3282.html](https://www.dfrobot.com.cn/goods-3282.html))
     SKU：SEN0497
 ## 目录
 
